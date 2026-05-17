@@ -1,0 +1,29 @@
+{
+  "name": "frqr-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for frqr.app — short links, QR codes and analytics in Claude Desktop, Cursor and any MCP client.",
+  "type": "module",
+  "bin": {
+    "frqr-mcp": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["mcp", "frqr", "url-shortener", "qr-code", "claude", "cursor", "model-context-protocol"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frqr-app/mcp-server"
+  },
+  "homepage": "https://frqr.app"
+}
