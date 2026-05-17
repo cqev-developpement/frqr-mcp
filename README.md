@@ -32,7 +32,7 @@ or `%AppData%\Roaming\Claude\claude_desktop_config.json` (Windows):
   "mcpServers": {
     "frqr": {
       "command": "npx",
-      "args": ["-y", "frqr-mcp"],
+      "args": ["-y", "github:cqev-developpement/frqr-mcp"],
       "env": {
         "FRQR_API_TOKEN": "frqr_pk_your_token_here"
       }
@@ -52,7 +52,7 @@ Add to `~/.cursor/mcp.json`:
   "mcpServers": {
     "frqr": {
       "command": "npx",
-      "args": ["-y", "frqr-mcp"],
+      "args": ["-y", "github:cqev-developpement/frqr-mcp"],
       "env": {
         "FRQR_API_TOKEN": "frqr_pk_your_token_here"
       }
@@ -64,7 +64,7 @@ Add to `~/.cursor/mcp.json`:
 ### 4. Any MCP client
 
 ```bash
-FRQR_API_TOKEN=frqr_pk_... npx frqr-mcp
+FRQR_API_TOKEN=frqr_pk_... npx -y github:cqev-developpement/frqr-mcp
 ```
 
 ## Example prompts
